@@ -1,0 +1,24 @@
+{
+  "name": "chatgpt-discordjs",
+  "version": "1.0.3",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aikey": "^1.0.2",
+    "chatgpt": "^4.7.2",
+    "discord.js": "^14.7.1",
+    "dotenv": "^16.0.3",
+    "ws": "^8.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
